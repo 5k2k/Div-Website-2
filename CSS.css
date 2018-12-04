@@ -1,5 +1,44 @@
 
 .container {
-    width: 80%
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.headertop {
+    background-color: blue;
+    height: 20px;
+}
+
+.headerbottom {
+    background-color: aqua;
+    height: 20px
+}
+
+.columnleft {
+    float: left;
+    background-color: bisque;
+    height: 500px;
+    width: 26%;
         
+}
+
+.columncenter {
+   background-color: hotpink;
+    height: 500px;
+    float: left;
+    width: 48%;
+}
+
+.columnright {
+    background-color: beige;
+    float: left;
+    height: 500px;
+    width: 26%;
+}
+
+.footer {
+    background-color: black;
+    height: 40px;
+    clear: left;
 }
