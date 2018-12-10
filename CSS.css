@@ -1,4 +1,6 @@
-
+body {
+    background-image: url(fancy-cushion.png)
+}
 .container {
     width: 80%;
     margin-left: auto;
@@ -7,12 +9,13 @@
 
 .headertop {
     background-color: blue;
-    height: 20px;
+    height: 40px;
+    font-family: 'Bungee', cursive;
 }
 
 .headerbottom {
     background-color: aqua;
-    height: 20px
+    height: 40px
 }
 
 .columnleft {
@@ -28,6 +31,7 @@
     height: 500px;
     float: left;
     width: 48%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .columnright {
